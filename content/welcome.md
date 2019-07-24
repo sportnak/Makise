@@ -1,49 +1,19 @@
 ---
-title: Welcome to empress-blog
+title: Welcome to me
 image: /images/welcome.jpg
 imageMeta:
   attribution:
   attributionLink:
-featured: true
+featured: false
 authors:
-  - ghost
-date: Tue Jun 12 2018 18:59:59 GMT+0100 (IST)
+  - michael
+date: Tue Jul 23 2019 22:24:00 GMT-0700 (PST)
 tags:
-  - getting-started
+  - about-me
 ---
 
-Hey! Welcome to empress-blog, it's great to have you :)
+Well, well, well. So you've found me out. Congratulations are in order. Why? Not really sure.
 
-We know that first impressions are important, so we've populated your new site with some initial **Getting Started** posts that will help you get familiar with everything in no time. This is the first one!
+If that whole introduction there threw you off guard I'm sorry, but that's how I write. I'll probably use irregardlessly more than once and I won't have anyone edit the copy on my page. At least, not until I have more than 10 people looking at this page.
 
-
-### There are a few things that you should know up-front:
-
-1. empress-blog is designed to be a static site version of the amazing [Ghost blogging platform](https://ghost.org/)
-
-1. empress-blog is designed for developers who know how to deploy a static site (folder of html files and assets) using something like S3 or even just on NGINX.
-
-1. If you are slightly less tech savvy or if you want to manage your blog outside of just a set of files in a git repo we highly recommend signing up for [Ghost](https://ghost.org/pricing/)
-
-### Quick Start
-
-```sh
-# if you don't have ember-cli installed already
-npm install -g ember-cli
-
-ember new super-blog
-cd super-blog
-
-ember install empress-blog empress-blog-casper-template
-```
-
-It will ask you if you want to update the `index.html` file and you should say yes 👍
-
-If you want to see the blog system running on your local machine just run `npm start` and you will
-be able to navigate to  [http://localhost:4200](http://localhost:4200) to see the blog in action.
-
----
-
-The main thing you'll want to read about next is probably: [editing files with empress-blog](/the-editor/).
-
-Once you're done reading, you can simply delete the default **Ghost** user from your team to remove all of these introductory posts!
+Either way, I'm glad you're hear and you've decided to check out my personal webpage. I had a webpage that looked cooler a while ago, but I didn't really have time to manage it. Besides, I <b>know</b> how to do web programming. So I'll add some flair to this site where I can figure it out. But in the meantime, I'm just going to use this to put down my thoughts on things that I find interesting.
