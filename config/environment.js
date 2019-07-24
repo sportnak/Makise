@@ -25,7 +25,7 @@ module.exports = function(environment) {
 
     blog: {
       title: "Michael Nakayama",
-      description: "Developer / Designer / Entreprenuer",
+      description: "Developer / Manager / Designer / Entreprenuer",
       coverImage: "/images/blog-cover.jpg",
 
       navigation: [
