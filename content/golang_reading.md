@@ -1,5 +1,5 @@
 ---
-title: Foray into Golang
+title: What Makes Go Special?
 image: /images/built.jpg
 imageMeta:
   attribution:
