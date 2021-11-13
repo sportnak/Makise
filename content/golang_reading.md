@@ -1,21 +1,20 @@
 ---
 title: Foray into Golang
-image: /images/writing.jpg
+image: /images/built.jpg
 imageMeta:
   attribution:
   attributionLink:
 featured: false
 authors:
   - michael
-date: Mon Nov 08 2021 21:10:00 GMT-0700 (PST)
+date: Mon Nov 12 2021 08:27:00 GMT-0700 (PST)
 tags:
   - golang
   - development
-  - microservices
-  - create-microservice-app
+  - software engineering
 ---
 
-AKA how many projects can I work on concurrently? 🙃
+# What Makes Go Special?
 
 So let's talk about Go. Learning about this language is incredibly valuable because it took the experiences of a large scale organization (Google) and identified key tenets of good software engineering. Those tenets directly influenced the development of the language and so from understanding how it came to be, we can learn more about what defines good software engineering. First, [How did it come into existence?](https://talks.golang.org/2012/splash.article) These are effectively my notes and summarization of this article.
 
@@ -48,3 +47,13 @@ Through type definitions, function signatures, and even variable casing. Go adds
 - block (the usual)
 
 By restricting scoping as such, there are a whole host of implementaiton details that improve clarity when writing in Go. For example, there are properties called `receivers` that must be defined on types - removing the need for an implicit `this` variable. Package names are also required when using imports (`io.Reader` instead of `Reader`) which reduces naming collisions and allows you to _immediately_ see who owns what. This provides some really awesome guarantees around developing new packages and avoiding breaking updates.
+
+## Go prioritizes simplicity over safety
+
+Again, this gets into the core of what Go was meant for. Designing for ease of concurrency and development over ideal memory safety (looking at you Rust). Garbage collection is treated similarly. Rather than requiring developers to worry about memory management, Go handles GC automatically. As a result, it becomes easier to use, but exposes some potential pitfalls if you aren't careful. You can work around these with some special tools Go provides, but you again must have high standards for your engineers when working on these problems.
+
+## Conclusion
+
+When you prioritize good software engineering you have to actually rely on your engineers writing good software. You should not then try to enact request-performance standards or business success as efforts to push the team towards a better product. You must focus on teaching your team to be better engineers and better, more stable code, will follow. Go was built so that you need tohave a team of engineers that either have well established (and good) conventions or a high level of talent (and can work together). If you have either of those solutions, then Go might be the language for you.
+
+For me - I was going to write up a web server in Go and see how it performed, but my interest has been piqued in reading [Why discord switched from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust). So for next time, expect a post on one of those or something _completely_ unrelated to technology.
