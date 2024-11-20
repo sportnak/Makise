@@ -1,6 +1,6 @@
 ---
 title: Setting up your own Ghost theme
-image: /images/design.jpg
+image: /images/design.jpeg
 imageMeta:
   attribution:
   attributionLink:

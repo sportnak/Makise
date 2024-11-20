@@ -1,6 +1,6 @@
 ---
 title: Should I Learn Rust?
-image: /images/built.jpg
+image: /images/built.jpeg
 imageMeta:
   attribution:
   attributionLink:

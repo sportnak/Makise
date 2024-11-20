@@ -1,6 +1,6 @@
 ---
 title: Debouncing React Effects
-image: /images/advanced.jpg
+image: /images/advanced.jpeg
 imageMeta:
   attribution:
   attributionLink:

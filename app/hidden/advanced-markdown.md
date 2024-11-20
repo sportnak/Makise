@@ -1,6 +1,6 @@
 ---
 title: Advanced Markdown tips
-image: /images/advanced.jpg
+image: /images/advanced.jpeg
 imageMeta:
   attribution:
   attributionLink:
@@ -41,7 +41,7 @@ There are two types of code elements which can be inserted in Markdown, the firs
 
 One neat trick which you can use in Markdown to distinguish between different types of images is to add a `#hash` value to the end of the source URL, and then target images containing the hash with special styling. For example:
 
-![walking](https://casper.ghost.org/v1.0.0/images/walking.jpg#full)
+![walking](https://casper.ghost.org/v1.0.0/images/walking.jpeg#full)
 
 which is styled with...
 

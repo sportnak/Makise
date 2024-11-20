@@ -1,6 +1,6 @@
 ---
 title: Organising your content with tags
-image: /images/tags.jpg
+image: /images/tags.jpeg
 imageMeta:
   attribution:
   attributionLink:

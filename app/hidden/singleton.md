@@ -1,6 +1,6 @@
 ---
 title: The Singleton Pattern in Javascript
-image: /images/one.jpg
+image: /images/one.jpeg
 imageMeta:
   attribution:
   attributionLink:

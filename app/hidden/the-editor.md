@@ -1,6 +1,6 @@
 ---
 title: Editing Posts with empress-blog
-image: /images/writing.jpg
+image: /images/writing.jpeg
 imageMeta:
   attribution:
   attributionLink:
@@ -32,9 +32,9 @@ With just a couple of extra characters here and there, you're well on your way t
 
 Images in Markdown look just the same as links, except they're prefixed with an exclamation mark, like this:
 
-`![Image description](/path/to/image.jpg)`
+`![Image description](/path/to/image.jpeg)`
 
-![Computer](https://casper.ghost.org/v1.0.0/images/computer.jpg)
+![Computer](https://casper.ghost.org/v1.0.0/images/computer.jpeg)
 
 If you want to add images to your empress-blog app you can just drop them in the `/public` folder, which you should see if you are running this locally!
 
