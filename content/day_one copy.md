@@ -1,12 +1,5 @@
 ---
 title: Day One
-image: /images/day_one.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: false
-authors:
-  - michael
 date: Mon 18 2024 11:35:00 GMT-0700 (PST)
 tags:
   - development

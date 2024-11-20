@@ -1,12 +1,5 @@
 ---
 title: Yarn Resolutions
-image: /images/advanced.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: true
-authors:
-  - michael
 date: Thur Jul 25 2019 4:42:00 GMT-0700 (PST)
 tags:
   - javascript

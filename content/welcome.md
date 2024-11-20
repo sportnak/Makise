@@ -1,12 +1,5 @@
 ---
 title: Welcome to me
-image: /images/welcome.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: false
-authors:
-  - michael
 date: Tue Jul 23 2019 22:24:00 GMT-0700 (PST)
 tags:
   - about-me

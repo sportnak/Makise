@@ -1,12 +1,5 @@
 ---
 title: Connecting a Raspberry Pi and Arduino in Rust
-image: /images/arduino.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: false
-authors:
-  - michael
 date: Sat Dec 09 2023 5:39:00 GMT-0700 (PST)
 tags:
   - productivity

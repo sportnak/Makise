@@ -1,12 +1,5 @@
 ---
 title: Rust on Arduino Uno
-image: /images/arduino.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: false
-authors:
-  - michael
 date: Mon Nov 27 2021 09:35:00 GMT-0700 (PST)
 tags:
   - rust

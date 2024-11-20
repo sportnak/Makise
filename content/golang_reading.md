@@ -1,12 +1,5 @@
 ---
 title: What Makes Go Special?
-image: /images/built.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: false
-authors:
-  - michael
 date: Mon Nov 12 2021 08:27:00 GMT-0700 (PST)
 tags:
   - golang

@@ -1,12 +1,5 @@
 ---
 title: Foray into Golang
-image: /images/writing.jpg
-imageMeta:
-  attribution:
-  attributionLink:
-featured: false
-authors:
-  - michael
 date: Mon Nov 08 2021 21:10:00 GMT-0700 (PST)
 tags:
   - golang
