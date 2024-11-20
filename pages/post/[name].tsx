@@ -5,6 +5,9 @@ import type { GetStaticPaths } from "next";
 
 export default function Post({ content, page }) {
   const feedItem = feed.find((x) => x.page === page);
+  if (!feedItem) {
+    return <div>404</div>;
+  }
   return (
     <Article title={feedItem.title} image={feedItem.image} content={content} />
   );
