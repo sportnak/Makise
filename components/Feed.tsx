@@ -41,7 +41,7 @@ export function Feed({ files }) {
 }
 
 function Item({ title, topic, units, image, snippet, length, page }: FeedItem) {
-  const isWide = units > 1;
+  const isWide = units === 3;
   const subFlex = isWide ? 0 : 1;
   return (
     <GridItem colSpan={units}>
@@ -122,13 +122,23 @@ export interface FeedItem {
 
 export const feed: FeedItem[] = [
   {
+    page: "resumes",
+    title: "Updating My Resume",
+    topic: "RESUMES",
+    snippet:
+      "So I decided to update my resume recently and now we can get some A/B testing done on resume formats!",
+    length: "3 MIN READ",
+    units: 1,
+    image: "/images/resume.png",
+  },
+  {
     page: "rust_avr",
     title: "Rust on Arduino Uno",
     topic: "RUST",
     snippet:
       "Rust focuses on balancing ease of use for developers with being a power and fast low level programming language.",
     length: "3 MIN READ",
-    units: 3,
+    units: 2,
     image: "/images/arduino.png",
   },
   {
