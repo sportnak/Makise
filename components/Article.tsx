@@ -14,7 +14,7 @@ export function Article({
 }) {
   return (
     <VStack>
-      <Box position={"fixed"} zIndex={1} top={0} w="100%" bg="#060606">
+      <Box position={"fixed"} zIndex={2} top={0} w="100%" bg="#060606">
         <Text
           ml="40px"
           cursor="pointer"
@@ -47,7 +47,7 @@ export function Article({
         >
           <Box
             lineHeight={"35.2px"}
-            fontSize="22px"
+            fontSize={{ base: "16px", md: "20px" }} // Reduced font size on smaller viewports
             color="#3C484E"
             fontFamily={"Georgia"}
           >

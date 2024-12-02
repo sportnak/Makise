@@ -122,6 +122,16 @@ export interface FeedItem {
 
 export const feed: FeedItem[] = [
   {
+    page: "rfc",
+    title: "Evaluating Random Forest Classifiers",
+    topic: "RFC",
+    snippet:
+      "In the current AI-driven landscape, much of the buzz revolves around large language models (LLMs). While these are powerful tools, they’re not the only way to build AI-enhanced products",
+    length: "3 MIN READ",
+    units: 3,
+    image: "/images/tree.png",
+  },
+  {
     page: "resumes",
     title: "Updating My Resume",
     topic: "RESUMES",
@@ -138,7 +148,7 @@ export const feed: FeedItem[] = [
     snippet:
       "Rust focuses on balancing ease of use for developers with being a power and fast low level programming language.",
     length: "3 MIN READ",
-    units: 2,
+    units: 1,
     image: "/images/arduino.png",
   },
   {
