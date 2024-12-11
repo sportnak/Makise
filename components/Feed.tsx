@@ -122,13 +122,23 @@ export interface FeedItem {
 
 export const feed: FeedItem[] = [
   {
+    page: "random_nits",
+    title: "Some Random Nits",
+    topic: "CODE STYLE",
+    snippet:
+      "I don't think of my self as particularly nit picky, but there are a few things that I think are easy wins that can help you save time in the long run. Let's go over a couple of them.",
+    length: "5 MIN READ (12/11/2024)",
+    units: 2,
+    image: "/images/nit.png",
+  },
+  {
     page: "rfc",
     title: "Evaluating Random Forest Classifiers",
     topic: "RFC",
     snippet:
       "In the current AI-driven landscape, much of the buzz revolves around large language models (LLMs). While these are powerful tools, they’re not the only way to build AI-enhanced products",
-    length: "3 MIN READ",
-    units: 3,
+    length: "3 MIN READ (11/25/2024)",
+    units: 1,
     image: "/images/tree.png",
   },
   {

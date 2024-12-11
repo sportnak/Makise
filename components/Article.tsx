@@ -2,6 +2,11 @@ import { VStack, Text, Box } from "@chakra-ui/react";
 import { FeedItem } from "./Feed";
 import Image from "next/image";
 import Markdown from "react-markdown";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import {
+  nightOwl,
+  solarizedlight,
+} from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 export function Article({
   title,
@@ -53,6 +58,30 @@ export function Article({
           >
             <Markdown
               components={{
+                code: (props) => {
+                  const hasClassName = props.className != null;
+                  return (
+                    <SyntaxHighlighter
+                      language={props.className?.split("-")[1] ?? "js"}
+                      style={hasClassName ? nightOwl : solarizedlight}
+                      customStyle={{
+                        fontSize: 12,
+                        display: hasClassName ? "auto" : "inline",
+                        borderRadius: "6px",
+                        padding: "4px 10px",
+                        lineHeight: "30px",
+                      }}
+                      codeTagProps={{
+                        style: {
+                          background: "none",
+                          padding: "0",
+                        },
+                      }}
+                    >
+                      {props.children}
+                    </SyntaxHighlighter>
+                  );
+                },
                 img: (props) => {
                   if (imageSizes[props.src]) {
                     const { src, alt } = props;

@@ -12,7 +12,7 @@ Phew it's early. Resolutions are a relatively simple concept that allows you to 
 
 Unfortunately, these two aren't compatible (yeah let's not go there). So, I needed a way to specify that `tfjs-image-recoginition-base` should be using version `1.2.2` instead of `1.2.5`. The [documentation](https://yarnpkg.com/lang/en/docs/selective-version-resolutions/) leads you to believe that specifying the following will work:
 
-```
+```json
 "resolutions": {
 	"tfjs-image-recognition-base/@tensorflow/tfjs-core": "1.2.2"
 }
