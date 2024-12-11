@@ -55,6 +55,7 @@ export function Article({
             fontSize={{ base: "16px", md: "20px" }} // Reduced font size on smaller viewports
             color="#3C484E"
             fontFamily={"Georgia"}
+            pb="100px"
           >
             <Markdown
               components={{

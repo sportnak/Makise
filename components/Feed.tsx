@@ -128,8 +128,18 @@ export const feed: FeedItem[] = [
     snippet:
       "I don't think of my self as particularly nit picky, but there are a few things that I think are easy wins that can help you save time in the long run. Let's go over a couple of them.",
     length: "5 MIN READ (12/11/2024)",
-    units: 2,
+    units: 3,
     image: "/images/nit.png",
+  },
+  {
+    page: "who_you_know",
+    title: "Who do you know?",
+    topic: "CODE STYLE",
+    snippet:
+      "If you're looking for the short version, this is just me ranting about how the job search process is never about how good you are on paper. It's about who you know.",
+    length: "2 MIN READ (12/12/2024)",
+    units: 1,
+    image: "/images/network.png",
   },
   {
     page: "rfc",
@@ -138,7 +148,7 @@ export const feed: FeedItem[] = [
     snippet:
       "In the current AI-driven landscape, much of the buzz revolves around large language models (LLMs). While these are powerful tools, they’re not the only way to build AI-enhanced products",
     length: "3 MIN READ (11/25/2024)",
-    units: 1,
+    units: 2,
     image: "/images/tree.png",
   },
   {
