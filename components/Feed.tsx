@@ -53,7 +53,7 @@ function Item({ title, topic, units, image, snippet, length, page }: FeedItem) {
         flexDir={isWide ? "row" : "column"}
         borderRadius={6}
         overflow={"hidden"}
-        h={isWide ? "300px" : "475px"}
+        h={isWide ? "200px" : "375px"}
         transition="transform 0.4s, box-shadow 0.2s"
         _hover={{
           transform: "scale(1.02)",
@@ -122,23 +122,33 @@ export interface FeedItem {
 
 export const feed: FeedItem[] = [
   {
+    page: "questions_for_interviewers",
+    title: "On Interviewing",
+    topic: "JOB HUNTING",
+    snippet:
+      "Most non-coding interviews end up being broken into two parts - a series of STAR questions and an opportunity for you to ask questions. I've put together a list of a few of the questions I commonly see and some of my favorites to ask the interviewer.",
+    length: "5 MIN READ (12/11/2024)",
+    units: 1,
+    image: "/images/questions.jpg",
+  },
+  {
     page: "random_nits",
     title: "Some Random Nits",
     topic: "CODE STYLE",
     snippet:
       "I don't think of my self as particularly nit picky, but there are a few things that I think are easy wins that can help you save time in the long run. Let's go over a couple of them.",
     length: "5 MIN READ (12/11/2024)",
-    units: 3,
+    units: 2,
     image: "/images/nit.png",
   },
   {
     page: "who_you_know",
     title: "Who do you know?",
-    topic: "CODE STYLE",
+    topic: "JOB HUNTING",
     snippet:
       "If you're looking for the short version, this is just me ranting about how the job search process is never about how good you are on paper. It's about who you know.",
     length: "2 MIN READ (12/12/2024)",
-    units: 1,
+    units: 2,
     image: "/images/network.png",
   },
   {
@@ -148,7 +158,7 @@ export const feed: FeedItem[] = [
     snippet:
       "In the current AI-driven landscape, much of the buzz revolves around large language models (LLMs). While these are powerful tools, they’re not the only way to build AI-enhanced products",
     length: "3 MIN READ (11/25/2024)",
-    units: 2,
+    units: 1,
     image: "/images/tree.png",
   },
   {
